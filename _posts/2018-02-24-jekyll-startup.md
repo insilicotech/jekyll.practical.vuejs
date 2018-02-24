@@ -112,3 +112,13 @@ Between these triple-dashed lines, you can set predefined variables (see below f
 {% capture words %}
   {{ page.content | number_of_words }}
 {% endcapture %}
+
+- XML sitemaps
+- RSS/Atom feeds
+- Social Media buttons (on article pages)
+
+First familiarize yourself with [HTML5 Bilerplate](http://html5boilerplate.com/). When this wasn't enough learn more from [HTML5 Doctor](http://html5doctor.com/).
+
+~~~ bash
+$ npm install -g node-gyp
+~~~

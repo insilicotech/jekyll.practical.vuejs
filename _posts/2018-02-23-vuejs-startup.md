@@ -8,30 +8,27 @@ description: VueJS Startup
 type: Document
 ---
 
-## Quick Startup
+## Features of Vue.js
 
-### Installation
+* Declarative Rendering
 
-PM2 is a process management tool to start, stop and monitor Node JS applications.
-
-~~~ bash
-# Install Jekyll and Bundler gems through RubyGems
-~ $ npm install pm2 -g
-
-# Create a new Jekyll site at ./myblog
-~ $ pm2 start myApp.js
-
-# Change into your new directory
-~ $ pm2 start
-
-# Build the site on the preview server
-~ $ pm2 stop
-
-# Build the site on the preview server
-~ $ pm2 restart
+~~~ html
+<div id="app">
+  {{ message }}
+</div>
 ~~~
 
-### Basic Usage
+~~~ javascript
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+});
+~~~
+
+
+### Installation
 
 The Jekyll gem makes a `jekyll` executable available to you in your Terminal window. You can use this command in a number of ways:
 
