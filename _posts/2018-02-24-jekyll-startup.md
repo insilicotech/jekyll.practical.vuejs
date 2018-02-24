@@ -82,6 +82,10 @@ A basic Jekyll site usually looks something like this:
 └── index.html # can also be an 'index.md' with valid YAML Frontmatter
 ~~~
 
+* XML sitemaps
+* RSS/Atom feeds
+* Social Media buttons (on article pages)
+
 ### Front matter
 
 The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:
@@ -108,17 +112,5 @@ Between these triple-dashed lines, you can set predefined variables (see below f
 ### MISC
 
 * [Jekyll static comment](https://mademistakes.com/articles/jekyll-static-comments/)
-
-{% capture words %}
-  {{ page.content | number_of_words }}
-{% endcapture %}
-
-- XML sitemaps
-- RSS/Atom feeds
-- Social Media buttons (on article pages)
-
-First familiarize yourself with [HTML5 Bilerplate](http://html5boilerplate.com/). When this wasn't enough learn more from [HTML5 Doctor](http://html5doctor.com/).
-
-~~~ bash
-$ npm install -g node-gyp
-~~~
+* [First familiarize yourself with `HTML5 Bilerplate`](http://html5boilerplate.com/)
+* [When this wasn't enough learn more from `HTML5 Doctor`](http://html5doctor.com/)

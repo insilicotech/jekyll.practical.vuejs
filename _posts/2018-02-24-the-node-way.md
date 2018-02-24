@@ -35,6 +35,9 @@ PM2 is a process management tool to start, stop and monitor Node JS applications
 ~ $ pm2 restart
 ~~~
 
+~~~ bash
+$ npm install -g node-gyp
+~~~
 
 ## Reference
 
