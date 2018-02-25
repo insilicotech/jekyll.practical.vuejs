@@ -7,12 +7,13 @@ categories:
 description: VueJS Startup
 type: Document
 ---
+A Vue instance can also be thought of as a [ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) in the MVVM pattern.
 
 ## Features of Vue.js
 
 * Declarative Rendering
 
-~~~ html
+~~~ markdown
 <div id="app">
   {{ message }}
 </div>
@@ -26,6 +27,25 @@ var app = new Vue({
   }
 });
 ~~~
+
+* Dynamic Data-Binding
+
+~~~ html
+<div id="app2">
+    <span v-bind:title="message">Hover your mouse over me a few seconds.</span>
+</div>
+~~~
+
+
+``` javascript
+var app2 = new Vue({
+    el: '#app2',
+    data: {
+        message: 'You load this page on ' + new Date().toLocaleDateString()
+    }
+});
+
+```
 
 
 ### Installation
@@ -110,4 +130,3 @@ Between these triple-dashed lines, you can set predefined variables (see below f
 1. [VueJs: The Basics](https://coligo.io/vuejs-the-basics/)
 2. [VueJs: The Basics](https://coligo.io/vuejs-the-basics/)
 
-{% include mp4.html id=page.video_id %}

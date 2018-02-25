@@ -26,6 +26,7 @@ type: Document
 # Now browse to http://localhost:4000
 ~~~
 
+
 ### Basic Usage
 
 The Jekyll gem makes a `jekyll` executable available to you in your Terminal window. You can use this command in a number of ways:
@@ -114,3 +115,17 @@ Between these triple-dashed lines, you can set predefined variables (see below f
 * [Jekyll static comment](https://mademistakes.com/articles/jekyll-static-comments/)
 * [First familiarize yourself with `HTML5 Bilerplate`](http://html5boilerplate.com/)
 * [When this wasn't enough learn more from `HTML5 Doctor`](http://html5doctor.com/)
+
+### Themes
+
+* [Hydepress](https://hydepress.github.io/jekyll-themes)
+
+### WebFeed
+
+* RSS
+* Atom
+* [Stringer: A self-hosted, anti-social RSS reader](https://github.com/swanson/stringer)
+
+### Bootstrap Themes
+
+* [Inspinia](https://github.com/Chuibility/inspinia)
