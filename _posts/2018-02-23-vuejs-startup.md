@@ -9,6 +9,19 @@ type: Document
 ---
 A Vue instance can also be thought of as a [ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) in the MVVM pattern.
 
+Vue provides two approaches for doing the two-way data binding.
+
+* Fluid template expression (double curly brackets)
+* Customized directive("v-model" Vue directve)
+
+Vue Make you decompsing DOM junk inoto hierachical stucture implemented by following Vue Component.
+
+* Conditional visibility controll by "v-show"
+* Exclusive visibility controll by "v-if"/"v-else"
+* Display elements iterativly by "v-for"/Filterby, Orderby
+
+For interactivity, "v-on" directive(shorthand "@") for listening on DOM events.
+
 ## Features of Vue.js
 
 * Declarative Rendering
