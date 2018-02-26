@@ -129,3 +129,15 @@ Between these triple-dashed lines, you can set predefined variables (see below f
 ### Bootstrap Themes
 
 * [Inspinia](https://github.com/Chuibility/inspinia)
+
+## HTML
+
+``` html
+<h2><font color="gray">This is H2 title.</font></h2>
+<h2 style="color:gray;">This is H2 title.</h2>
+```
+
+### javascript
+
+* [Next.js](https://github.com/zeit/next.js)
+* [Apollo Server Tutorial](https://dev-blog.apollodata.com/tutorial-building-a-graphql-server-cddaa023c035?_ga=2.48817381.256337063.1519684802-1147983930.1519684802)
