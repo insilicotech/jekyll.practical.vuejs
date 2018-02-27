@@ -34,15 +34,18 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
+# Build settings
+markdown: kramdown
+highlighter: rouge
+include: [".htaccess"]
+exclude: ["README.md", "LICENCE", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files:           [".git", ".svn"]
+encoding:             "utf-8"
+markdown_ext:         "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: false
 
 collections:
   sets:
-
 
 jekyll-archives:
   enabled: ['categories']
@@ -90,3 +93,10 @@ types:
   - Video
 
 _comments:
+
+
+# -----
+# Serve Command Options
+port: 4008
+# host: <HOSTNAME>
+# baseurl: <URL>

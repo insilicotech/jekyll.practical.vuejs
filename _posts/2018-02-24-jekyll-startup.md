@@ -102,6 +102,10 @@ Between these triple-dashed lines, you can set predefined variables (see below f
 
 ## Reference
 
+### Offical Document
+
+* [Jekyll Offical Document](https://jekyllrb.com/docs/home/)
+
 ### Books
 
 * [Ed](http://themes.jekyllrc.org/ed/Ed)
