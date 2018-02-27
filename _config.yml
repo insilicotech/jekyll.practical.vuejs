@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Asia/Tokyo
 
 permalink: /:categories/:title/
 
